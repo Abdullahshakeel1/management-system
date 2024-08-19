@@ -1,0 +1,86 @@
+.user-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    color: #7f5aa4;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.user-list-items {
+    list-style: none;
+    padding: 0;
+}
+
+.user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.user-item:hover {
+    background-color: #efefef;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-info {
+    flex: 1;
+}
+
+.user-name {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.label {
+    font-weight: bold;
+    color: #555;
+}
+
+.user-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.action-button {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action-button.edit {
+    background-color: #7f5aa4;
+}
+
+.action-button.edit:hover {
+    background-color: #6a4d8f;
+}
+
+.action-button.delete {
+    background-color: #e74c3c;
+}
+
+.action-button.delete:hover {
+    background-color: #c0392b;
+}
+
+.loading,
+.error {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+}
